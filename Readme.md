@@ -68,3 +68,8 @@ To create decision tree use make_tree method. This method takes one argument - d
 
 	tree = make_tree(train)
 
+# Classification
+For classify the instance use method classify. May return None if can't classify this instance.
+
+	instance_to_classify = [4.8, 3.1, 1.6, 0.2]
+	predicted_class = tree.classify(instance_to_classify)
