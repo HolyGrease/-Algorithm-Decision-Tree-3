@@ -227,8 +227,6 @@ class Dataset():
 		for row in self._data:
 			row.pop(column_index)
 
-		self.print(5)
-
 	# TODO doc
 	def split_by_predicate(self, index, predicate):
 		"""
