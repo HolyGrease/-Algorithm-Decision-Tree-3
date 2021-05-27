@@ -43,7 +43,7 @@ Default value of path
 
 # Preprocessing dataset
 Threshold - process of converting continius values to discrete values. There are two methods:
-- media - thresholding by median value of column
+- median - thresholding by median value of column
 - gain - thresholding by using value with maximum gain
 
 As first argument takes column index, second - name of method
