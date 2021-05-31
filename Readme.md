@@ -24,7 +24,7 @@ Now we can create Dataset object. Arguments:
 - target index - index of target attribute, attribute that contains classes values
 - column or attributes names - list of attributes names
 - name - Dataset name
-
+<a/>
 
 	iris = Dataset(data, 4, column_names, "Iris")
 
